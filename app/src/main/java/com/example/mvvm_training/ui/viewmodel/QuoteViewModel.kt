@@ -26,11 +26,11 @@ class QuoteViewModel @Inject constructor(
             val result = getQuotesUseCase()
 
 
-            //démarrer avec une citation
-//            if (!result.isNullOrEmpty()) {
-//                quoteModel.postValue(result[0])
-//                isLoading.postValue(false)
-//            }
+//            démarrer avec une citation
+            if (!result.isNullOrEmpty()) {
+                quoteModel.postValue(getRandomQuoteUseCase()!!)
+                isLoading.postValue(false)
+            }
         }
     }
 
@@ -38,6 +38,8 @@ class QuoteViewModel @Inject constructor(
 
         isLoading.postValue(true)
         val result = getRandomQuoteUseCase()
+
+
         quoteModel.postValue(result!!)
 
 
