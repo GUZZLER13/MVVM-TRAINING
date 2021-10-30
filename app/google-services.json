@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "262304736361",
+    "firebase_url": "https://mvvm-training-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "mvvm-training",
+    "storage_bucket": "mvvm-training.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:262304736361:android:187407791bda28f8cd2ef8",
+        "android_client_info": {
+          "package_name": "com.example.mvvm_training"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "262304736361-r40glnclv55g9cdh8kqh87j154bhu5a5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7fJRyZwump_nlnTY0TYhRfX7Iw1xjwP0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "262304736361-r40glnclv55g9cdh8kqh87j154bhu5a5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
