@@ -1,4 +1,4 @@
-package com.example.mvvm_training.data.model.network
+package com.example.mvvm_training.data.network
 
 import com.example.mvvm_training.cores.RetrofitHelper
 import com.example.mvvm_training.data.model.QuoteModel
