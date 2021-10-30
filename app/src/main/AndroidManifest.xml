@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MVVMTRAINING">
         <activity
-            android:name=".views.MainActivity"
+            android:name="com.example.mvvm_training.ui.views.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
